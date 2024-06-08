@@ -12,8 +12,8 @@ const HeroArea = () => {
                     <h2 className="text-[56px] text-[#1C1C57]">Showcase Your Work with Airfolio's Creative Solutions</h2>
                     <p className="text-base text-[#1C1C57]">Create stunning portfolios and websites with Airfolio's UI/UX design and Webflow development services.</p>
                     <div className="flex items-center  gap-4">
-                        <ButtonFull text={"Hire Me"}/>
-                        <ButtonHalf text={"Portfolio"}/>
+                        <ButtonFull text={"Hire Me"} link={"#"}/>
+                        <ButtonHalf text={"Portfolio"} link={"#"}/>
                     </div>
                 </div>
                 <div className="srsImageArea max-w-[616px]">
