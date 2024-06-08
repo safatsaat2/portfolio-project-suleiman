@@ -1,6 +1,8 @@
 import Image from "next/image";
 import  "../Components/HeroArea.css"
 import HeroImg from "../../public/hero image.png"
+import ButtonFull from "./buttons/ButtonFull";
+import ButtonHalf from "./buttons/ButtonHalf";
 const HeroArea = () => {
     return (
         <div className="srsHeroParent pt-28">
@@ -10,12 +12,8 @@ const HeroArea = () => {
                     <h2 className="text-[56px] text-[#1C1C57]">Showcase Your Work with Airfolio's Creative Solutions</h2>
                     <p className="text-base text-[#1C1C57]">Create stunning portfolios and websites with Airfolio's UI/UX design and Webflow development services.</p>
                     <div className="flex items-center  gap-4">
-                        <a className="text-white px-6 py-4 bg-[#078D84] rounded-lg" href="#">
-                        Hire Me
-                        </a>
-                        <a className="text-[#078D84] px-6 py-4 bg-transparent border border-[#078D84]  rounded-lg" href="#">
-                        Portfolio
-                        </a>
+                        <ButtonFull text={"Hire Me"}/>
+                        <ButtonHalf text={"Portfolio"}/>
                     </div>
                 </div>
                 <div className="srsImageArea max-w-[616px]">
