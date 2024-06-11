@@ -39,7 +39,7 @@ const AboutMe = () => {
                 <p className="text-base text-[#1C1C57] mt-2">{list?.des}</p>
             </div>)}
           </div>
-          <ButtonFull text={"About"}/>
+          <ButtonFull text={"About Me"}/>
         </div>
       </div>
     </div>
