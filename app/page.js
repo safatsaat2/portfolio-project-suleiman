@@ -2,6 +2,7 @@ import AboutMe from "./Components/About Me/AboutMe";
 import HeroArea from "./Components/HeroArea";
 import MyExperience from "./Components/My Experience/MyExperience";
 import OurService from "./Components/Our Service/OurService";
+import Testimonial from "./Components/Testimonial/Testimonial";
 import TrustedComapny from "./Components/TrustedCompany/TrustedComapny";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       </svg>
       <AboutMe/>
       <MyExperience/>
+      <Testimonial/>
     </>
   );
 }
