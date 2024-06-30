@@ -1,5 +1,6 @@
 import React from 'react';
 import ButtonFull from '../buttons/ButtonFull';
+import ProjectCard from './ProjectCard';
 
 const Project = () => {
     return (
@@ -12,7 +13,7 @@ const Project = () => {
               Explore our curated collection of successful projects.
             </p>
             <div className='grid grid-cols-1 lg:grid-cols-2 items-center'>
-
+        <ProjectCard/>
             </div>
             <ButtonFull text="Check the full Portfolio" link={"#"} />
         </div>
