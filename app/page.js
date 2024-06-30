@@ -2,6 +2,7 @@ import AboutMe from "./Components/About Me/AboutMe";
 import HeroArea from "./Components/HeroArea";
 import MyExperience from "./Components/My Experience/MyExperience";
 import OurService from "./Components/Our Service/OurService";
+import Project from "./Components/Project/Project";
 import TrustedComapny from "./Components/TrustedCompany/TrustedComapny";
 
 export default function Home() {
@@ -39,6 +40,7 @@ export default function Home() {
       >
         <path d="M0 129.842V0.568253H1440L0 129.842Z" fill="#F6F8FF" />
       </svg>
+      <Project/>
     </>
   );
 }
