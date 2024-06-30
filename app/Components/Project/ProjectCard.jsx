@@ -21,7 +21,7 @@ const ProjectCard = () => {
           <p className="text-sm font-semibold bg-[#F4F4F4] px-2 py-1">UI</p>
           <p className="text-sm font-semibold bg-[#F4F4F4] px-2 py-1">WebFlow</p>
         </div>
-        <button className="flex items-center gap-3 mt-6">
+        <button className="flex items-center gap-3 mt-6 hover:text-[#255BF9] transition-all duration-500 ">
           View Project{" "}
           <svg
             width="17"
