@@ -22,10 +22,10 @@ const AboutMe = () => {
   return (
     <div className="pt-[35px] pb-[27px]">
       <div className="max-w-[1374px] mx-auto flex items-center justify-between flex-col lg:flex-row">
-        <div className="max-w-[50%]">
+        <div className="max-w-[80%] lg:max-w-[50%]">
           <Image src={about} alt="suleiman about" />
         </div>
-        <div className="max-w-[50%]">
+        <div className="max-w-[80%] lg:max-w-[50%]">
           <p className="text-base text-[#1C1C57] pb-4">About Me</p>
           <h3 className="text-[40px] font-medium text-[#1C1C57] leading-[120%]">
             Who is responsible for all of this impressive effort?

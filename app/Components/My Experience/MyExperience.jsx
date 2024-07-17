@@ -42,12 +42,12 @@ const MyExperience = () => {
 
 
   return (
-    <div className='pt-[35px] pb-[27px] bg-[#F6F8FF]'>
+    <div className='pt-[35px] pb-[27px] bg-[#F6F8FF] px-5'>
       <div className="max-w-[1374px] mx-auto flex items-center justify-between flex-col lg:flex-row-reverse">
-        <div className="max-w-[50%]">
+        <div className="max-w-[80%] lg:max-w-[50%]">
           <Image src={experience} alt="suleiman experinece" />
         </div>
-        <div className="max-w-[50%]">
+        <div className="max-w-[80%] lg:max-w-[50%]">
           <p className="text-base text-[#1C1C57] pb-4">My Experience</p>
           <h3 className="text-[40px] font-medium text-[#1C1C57] leading-[120%]">
           Protect Your Portfolio with Airfolio's Security Features

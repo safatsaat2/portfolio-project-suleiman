@@ -41,7 +41,7 @@ const Testimonial = () => {
 
   return (
     <div className="bg-[#255BF9] px-[64px] py-[112px] testimonial_sec">
-        <h2 className="text-center text-white text-4xl">
+        <h2 className="text-center text-white text-4xl pb-5">
             Testimonials
         </h2>
       <div className="max-w-[1280px] mx-auto">

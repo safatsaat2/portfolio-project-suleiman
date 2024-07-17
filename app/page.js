@@ -10,7 +10,7 @@ import TrustedComapny from "./Components/TrustedCompany/TrustedComapny";
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-hidden ">
       <HeroArea />
       <TrustedComapny />
       <OurService />
@@ -56,6 +56,6 @@ export default function Home() {
       </svg>
       <Testimonial/>
       <OurTeam/>
-    </>
+    </div>
   );
 }

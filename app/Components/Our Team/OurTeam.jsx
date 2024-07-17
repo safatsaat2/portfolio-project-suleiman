@@ -37,7 +37,7 @@ const OurTeam = () => {
         },
     ]
     return (
-        <div className='srs_team py-32 text-center'>
+        <div className='srs_team py-32 text-center px-5'>
             <h2 className="text-center text-white text-4xl">
             My Team
         </h2>

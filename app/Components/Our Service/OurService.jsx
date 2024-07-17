@@ -6,7 +6,7 @@ import ButtonHalf from "../buttons/ButtonHalf";
 
 const OurService = () => {
   return (
-    <div className="bg-[#F6F8FF] py-28">
+    <div className="bg-[#F6F8FF] py-28 px-5">
       <div className="max-w-[1280px] mx-auto">
         <TitleSecServices />
         <CatSecServices />

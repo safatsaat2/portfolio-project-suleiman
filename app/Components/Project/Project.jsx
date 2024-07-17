@@ -18,7 +18,7 @@ const Project = () => {
         },
     ]
     return (
-        <div className='max-w-[1320px] mx-auto flex items-center flex-col'>
+        <div className='max-w-[1320px] mx-auto flex items-center flex-col px-5'>
             <p className="text-base text-[#1C1C57] pb-4 text-center font-semibold">Projects</p>
             <h3 className="text-[40px] font-semibold text-[#1C1C57] leading-[120%] text-center">
             Discover Our Success Stories
