@@ -3,6 +3,7 @@ import Blog from "./Components/Blog/Blog";
 import HeroArea from "./Components/HeroArea";
 import MyExperience from "./Components/My Experience/MyExperience";
 import OurService from "./Components/Our Service/OurService";
+import OurTeam from "./Components/Our Team/OurTeam";
 import Project from "./Components/Project/Project";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import TrustedComapny from "./Components/TrustedCompany/TrustedComapny";
@@ -54,7 +55,7 @@ export default function Home() {
         <path d="M1440 0.390137V129.664H0L1440 0.390137Z" fill="#255BF9" />
       </svg>
       <Testimonial/>
-      
+      <OurTeam/>
     </>
   );
 }
